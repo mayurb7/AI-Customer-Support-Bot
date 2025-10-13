@@ -1,0 +1,11 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__
+
+# Environment variables
+.env
+
+# Database file
+conversations.db
