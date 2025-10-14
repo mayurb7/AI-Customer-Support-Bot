@@ -1,5 +1,7 @@
-    AI Customer Support Bot
-    (for a e-commerce website)
+AI Customer Support Bot
+(for a e-commerce website)
+
+
 This project is a functional simulation of an AI-powered customer support chatbot. 
 It is designed to handle frequently asked questions, maintain conversational context, and intelligently escalate issues to a human agent when necessary.
 The application is built with a Python Flask backend, a simple vanilla JavaScript frontend, and integrates with an LLM (in this case, via the OpenAI API) for generating intelligent responses.
