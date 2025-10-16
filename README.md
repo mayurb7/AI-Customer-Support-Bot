@@ -23,7 +23,7 @@ The application is built with a Python Flask backend, a simple vanilla JavaScrip
 
     Backend: Python, Flask
 
-    LLM: OpenAI API (gpt-3.5-turbo)
+    LLM: Gemini API (gemini-2.5-flash)
 
     Database: SQLite for session and message storage
 
@@ -53,7 +53,8 @@ Create a requirements.txt file and install the necessary packages.
 
 5. Create the .env File
 Create a file named .env in the root of the project and add your Gemini API key:
-GEMINI_API_KEY='sk-YourSecretKeyGoesHere'
+
+        GEMINI_API_KEY='sk-YourSecretKeyGoesHere'
 
 6. Run the Application
 
