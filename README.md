@@ -5,7 +5,7 @@ Demo Video : https://youtu.be/ImbyJp70Ksk
 
 This project is a functional simulation of an AI-powered customer support chatbot. 
 It is designed to handle frequently asked questions, maintain conversational context, and intelligently escalate issues to a human agent when necessary.
-The application is built with a Python Flask backend, a simple vanilla JavaScript frontend, and integrates with an LLM (in this case, via the OpenAI API) for generating intelligent responses.
+The application is built with a Python Flask backend, a simple vanilla JavaScript frontend, and integrates with an LLM (in this case, via the Gemini API) for generating intelligent responses.
 
 ===>>>Features :
 
@@ -48,7 +48,7 @@ On Windows:
 3. Install Dependencies
 Create a requirements.txt file and install the necessary packages.
 
-        pip install Flask openai python-dotenv
+        pip install google-generativeai
         pip freeze > requirements.txt
 
 5. Create the .env File
