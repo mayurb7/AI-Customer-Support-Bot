@@ -30,7 +30,6 @@ The application is built with a Python Flask backend, a simple vanilla JavaScrip
     Frontend: HTML, CSS, JavaScript (via index.html)
 
 ===>>>Setup and Installation
-
 Follow these steps to run the project locally.
 
 1. Clone the Repository
@@ -40,10 +39,8 @@ Follow these steps to run the project locally.
 
 2. Create and Activate a Virtual Environment
 
-On Windows:
-
-    python -m venv venv
-    .\venv\Scripts\activate
+        python -m venv venv
+        .\venv\Scripts\activate
 
 3. Install Dependencies
 Create a requirements.txt file and install the necessary packages.
@@ -51,11 +48,11 @@ Create a requirements.txt file and install the necessary packages.
         pip install google-generativeai
         pip freeze > requirements.txt
 
-5. Create the .env File
+4. Create the .env File
 Create a file named .env in the root of the project and add your Gemini API key:
 
         GEMINI_API_KEY='sk-YourSecretKeyGoesHere'
 
-6. Run the Application
+5. Run the Application
 
         python app.py
